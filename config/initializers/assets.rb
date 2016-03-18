@@ -8,4 +8,8 @@ Rails.application.config.assets.version = '1.0'
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-# Rails.application.config.assets.precompile += %w( search.js )
+Rails.application.config.assets.precompile += %w( jquery.scrollex.min.js )
+Rails.application.config.assets.precompile += %w( main.js )
+Rails.application.config.assets.precompile += %w( util.js )
+Rails.application.config.assets.precompile += %w( ie/html5shiv.js )
+Rails.application.config.assets.precompile += %w( ie/respond.min.js )
